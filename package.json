@@ -4,11 +4,16 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.13.7"
+    "@astrojs/preact": "^4.1.1",
+    "@astrojs/sitemap": "^3.5.1",
+    "@astrojs/vercel": "^8.2.7",
+    "astro": "^5.13.7",
+    "astro-capo": "^0.0.1",
+    "preact": "^10.27.2"
   }
 }
